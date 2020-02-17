@@ -6,7 +6,7 @@
   cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
-    width: 60px;
+    width: 40px;
     height: 13px;
     margin: 0 0 5px 0;
     background: #5be5b5;
@@ -17,7 +17,7 @@
     transform: rotate(180deg);
 	}
     .menu-btn.close .btn-line:nth-child(1) {
-      transform: rotate(45deg) translate(-5px, -5px);
+      transform: rotate(45deg) translate(5px, 5px);
 	  background: #ff7d66;
 	  }
     .menu-btn.close .btn-line:nth-child(2) {
